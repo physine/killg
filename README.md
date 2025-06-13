@@ -1,4 +1,4 @@
-## killg
+##$ killg
 
 A  Bash script to find and kill all processes matching a given search term.
 
