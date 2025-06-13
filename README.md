@@ -4,18 +4,20 @@ A  Bash script to find and kill all processes matching a given search term.
 
 Usage:
 
-./killg [search term]
+```./killg [search term]```
 
-For example, to kill all running instances of Firefox:
+- For example, to kill all running instances of Firefox:
 
-./killg firefox
+```./killg firefox```
 
-The script will list all matching processes (PID and process name) and kill each listed process.
+- The script will list all matching processes (PID and process name) and kill each listed process.
 
-Install:
+**Install:**
 
-Save killg somewhere in your PATH (e.g., ~/bin/killg) and make it executable with chmod +x ~/bin/killg.
+- Save killg somewhere in your PATH (e.g., ~/bin/killg) and make it executable with:
 
-Warning:
+```chmod +x ~/bin/killg```
 
-Use with caution! This script will kill all processes matching the search term.
+**Warning:**
+
+- Use with caution! This script will kill all processes matching the search term.
